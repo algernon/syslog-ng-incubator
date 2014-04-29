@@ -23,6 +23,7 @@ DISTCLEANFILES		= \
 
 .y.c:
 
+include tests/Makefile.am
 include modules/Makefile.am
 include scl/Makefile.am
 include tools/Makefile.am

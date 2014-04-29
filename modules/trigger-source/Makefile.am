@@ -35,3 +35,5 @@ EXTRA_DIST						+= \
 	modules/trigger-source/trigger-source-example.conf
 
 .PHONY: modules/trigger-source mod-trigger
+
+include modules/trigger-source/tests/Makefile.am

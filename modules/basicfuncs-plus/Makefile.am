@@ -21,3 +21,5 @@ EXTRA_DIST						+= \
 modules/basicfuncs-plus mod-basicfuncs-plus: modules/basicfuncs-plus/libbasicfuncs-plus.la
 
 .PHONY: modules/basicfuncs-plus mod-basicfuncs-plus
+
+include modules/basicfuncs-plus/tests/Makefile.am

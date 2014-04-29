@@ -20,3 +20,4 @@ modules/graphite mod-graphite: modules/graphite/libgraphite.la
 
 .PHONY: modules/graphite mod-graphite
 
+include modules/graphite/tests/Makefile.am

@@ -22,3 +22,5 @@ modules_getent_libtfgetent_la_LDFLAGS	= \
 modules/getent mod-getent: modules/getent/libtfgetent.la
 
 .PHONY: modules/getent mod-getent
+
+include modules/getent/tests/Makefile.am
