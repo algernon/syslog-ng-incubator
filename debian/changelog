@@ -1,3 +1,10 @@
+syslog-ng-incubator (0.3.3-2) unstable; urgency=medium
+
+  * Build-Depend on syslog-ng >= 3.5.6~, to pick up the looser
+    dependencies.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Tue, 12 Aug 2014 16:14:10 +0200
+
 syslog-ng-incubator (0.3.3-1) unstable; urgency=medium
 
   * New upstream release.
